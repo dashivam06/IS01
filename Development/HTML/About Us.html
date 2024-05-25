@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore a wide range of printers at our e-commerce store. High-quality printers for home and office use.">
+    <meta name="keywords" content="printers, office printers, home printers, laser printers, inkjet printers">
+    <meta name="author" content="Cuba">
+    <title>Printers For Sale</title>
+    <link rel="icon" type="image/x-icon" href="Icons/Printer.png">
+    <link rel="stylesheet" href="../CSS/About Us.css">
+    <link rel="stylesheet" href="../CSS/Universal.css">
+
+</head>
+
+<!-- This Is The Header Section -->
+<header>
+    <!-- This is an Anchor Tag Which Will Represent The Logo Of The Company & Redirect To Home Section-->
+    <a href="../index.html" class="logo"><img src="../image/logo.png" alt="logo" /></a>
+
+    <!-- For The Nav Menu  -->
+    <ul class="navmenu">
+        <li><a class="nav-item" href="../index.html">Home</a></li> <!--Home Section-->
+        <li><a class="nav-item" href="Product.html">Product</a></li><!--Product Section -->
+        <li><a class="nav-item" href="Blog.html">Blog</a></li><!--Blog Section-->
+        <li><a class="nav-item" href="Research.html">Research</a></li><!--Research Section-->
+        <li><a class="nav-item" href="Contact.html">Contact </a></li><!--Contact Section -->
+        <li><a class="nav-active" href="About Us.html">About Us</a></li>
+        <!--About Us Section & class nav-active Will Create an Underline Below The Active Nav Section-->
+    </ul>
+
+    <!-- These Are The Nav Icons -->
+    <div class="navicons">
+
+        <!-- This Is To Count The Number Of Products In The Cart -->
+        <div class="cart-icon">
+            <a href="#"><img src="../Icons/Cart.svg" alt="Cart"></a><!--Cart Logo-->
+            <span id="cartcount">0</span><!--Cart Count Number-->
+        </div>
+
+        <a href="#"><img src="../Icons/User.svg" alt="User" /></a><!--User Logo-->
+    </div>
+</header>
+
+
+<body>
+
+    <div class="content"><!--Contains All The Profile Preview Of Members-->
+
+        <!-- Profile 1 -->
+        <div class="profile"><!--Contains The Profile Preview Of Member 1-->
+            <img class="image" src="../image/profile1.png" alt=""><!--Image Of Member 1-->
+
+            <div class="intro"><!--Short Intro Of All The Member Includes All The Text To Git Icon-->
+                <p class="greeting">Hello, I'm </p><!--Greetings-->
+                <p class="name">Shivam Thakur</p><!--Name Of Member-->
+                <p class="position">Team Leader</p><!--Position In Team-->
+
+                <div class="cvbutton">
+                    <a href="Contact.html"><button>Message Me</button></a><!--Redirects To Contact.html-->
+                    <div class="active"><!--Include View CV Button-->
+                        <button onclick="showPanel('1')">&nbsp;&nbsp;&nbsp;&nbsp;View CV
+                            &nbsp;&nbsp;&nbsp;&nbsp;</button><!--Button To Display Detail CV's-->
+                    </div>
+                </div>
+                <div class="social"><!--Includes All The Social Media Icon-->
+                    <img src="../Icons/github.png" alt=""><!--Github Icon-->
+                    <img src="../Icons/reddit.png" alt=""><!--Reddit Icon-->
+                    <img src="../Icons/discord.png" alt=""><!--Discord Icon-->
+                </div>
+            </div>
+        </div>
+
+        <!-- These Three Down Below Are Just The Same Like The First So No Comments Hope You Don't Mind -->
+
+        <!-- Profile2 -->
+
+
+        <div class="profile">
+            <div class="intro">
+                <p class="greeting">Hello, I'm </p>
+                <p class="name">Satyendra Thakur</p>
+                <p class="position">Team Member</p>
+
+                <div class="cvbutton">
+                    <a href="Contact.html"><button>Message Me</button></a>
+                    <div class="active">
+                        <button onclick="showPanel('2')">&nbsp;&nbsp;&nbsp;&nbsp;View CV
+                            &nbsp;&nbsp;&nbsp;&nbsp;</button>
+                    </div>
+                </div>
+                <div class="social">
+                    <img src="../Icons/github.png" alt="">
+                    <img src="../Icons/reddit.png" alt="">
+                    <img src="../Icons/discord.png" alt="">
+                </div>
+            </div>
+            <img class="image" src="../image/profile1.png" alt="">
+        </div>
+
+
+
+
+
+
+
+        <!-- Profile 3 -->
+
+        <div class="profile">
+            <img class="image" src="../image/profile1.png" alt="">
+
+
+            <div class="intro">
+                <p class="greeting">Hello, I'm </p>
+                <p class="name">Piyush Parajuli </p>
+                <p class="position">Team Member</p>
+
+                <div class="cvbutton">
+                    <a href="Contact.html"><button>Message Me</button></a>
+                    <div class="active">
+                        <button onclick="showPanel('3')">&nbsp;&nbsp;&nbsp;&nbsp;View CV
+                            &nbsp;&nbsp;&nbsp;&nbsp;</button>
+                    </div>
+                </div>
+                <div class="social">
+                    <img src="../Icons/github.png" alt="">
+                    <img src="../Icons/reddit.png" alt="">
+                    <img src="../Icons/discord.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!-- Profile 4 -->
+
+        <div class="profile">
+
+
+
+            <div class="intro">
+                <p class="greeting">Hello, I'm </p>
+                <p class="name">Divas Silwal</p>
+                <p class="position">Team Member</p>
+
+                <div class="cvbutton">
+                    <a href="Contact.html"><button>Message Me</button></a>
+                    <div class="active">
+                        <button onclick="showPanel('4')">&nbsp;&nbsp;&nbsp;&nbsp;View CV
+                            &nbsp;&nbsp;&nbsp;&nbsp;</button>
+                    </div>
+                </div>
+                <div class="social">
+                    <img src="../Icons/github.png" alt="">
+                    <img src="../Icons/reddit.png" alt="">
+                    <img src="../Icons/discord.png" alt="">
+                </div>
+            </div>
+            <img class="image" src="../image/profile1.png" alt="">
+        </div>
+
+
+
+
+        <!-- For The Footer Section  -->
+        <footer>
+            <div class="Footer_Logo">
+                <img src="../image/logo.png" alt="Logo" /><!--Company Logo-->
+            </div>
+            <div class="SocialMedia_Icons"><!--includes All The Social Media Icon For Contact Info-->
+                <a href="#"><img src="../Icons/Facebook Logo.png"
+                        alt="Facebook Logo" /></a><!--Facebook Logo For Contact-->
+                <a href="#"><img src="../Icons/Twitter.png" alt="Twitter Logo" /></a><!--Twitter Logo For Contact-->
+                <a href="#"><img src="../Icons/Instagram.png"
+                        alt="Instagram Logo" /></a><!--Instagram Logo For Contact-->
+                <a href="#"><img src="../Icons/Whatsapp.png" alt="Whatsapp Logo" /></a><!--Whatsapp Logo For Contact-->
+            </div>
+
+
+            <div class="CopyRight"><!--Copyright Div-->
+                <p>&#169; 2024 Cuba .All Rights Reserved</p><!--Copyright At Bottom-->
+            </div>
+        </footer>
+
+        <!-- This Below is for content -->
+    </div>
+
+
+
+
+    <!-- These Are All The Div Which Contains The  CV's Of Members -->
+
+
+    <!-- Member 1 -->
+
+
+    <div id="1" class="show" style="display: none;"><!--This Div Is To Toggle Image Using Id-->
+        <div onclick="hidePanel()" class="cross"><img src="../Icons/cross-2.png" alt=""></div>
+        <!--This Is The Cross Logo To Close The Div-->
+        <div class="detail1"><!--This Includes Whole CV,All The Left And Right Portion Of CV-->
+            <div class="detail"><!--For Padding And Margin-->
+                <div class="info"><!--For Box Shadow And Other Stuff-->
+                    <div class="Member"><!--For The Whole Left Portion-->
+                        <img class="profile-pic" src="../image/shivam.png" alt=""><!--For The Profile -->
+                        <div class="inner-info"><!--ForThe Text Inside The Left Portion-->
+                            <div class="contact"><!--For Contact info only-->
+                                <h2>Contact</h2>
+
+                                <h3>Phone</h3>
+                                <p>+977 982860344</p>
+                                <h3>Email</h3>
+                                <p>thakurshivam202063@gmail.com</p>
+                                <h3>Address</h3>
+                                <p>Patan, Lalitpur</p>
+
+                            </div>
+                            <div class="skills"><!--For Skills -->
+                                <h2>Skills</h2>
+                                <p><img class="arrow" src="../Icons/blue-arrow.png" alt=""> Adaptability</p>
+                                <p><img class="arrow" src="../Icons/blue-arrow.png" alt=""> Management Skill</p>
+                                <p><img class="arrow" src="../Icons/blue-arrow.png" alt=""> Communication Skills</p>
+                                <p><img class="arrow" src="../Icons/blue-arrow.png" alt=""> Problem Solving</p>
+                            </div>
+
+                            <div class="languages"><!--For Languages-->
+                                <h2>Languages</h2>
+                                <p><img class="arrow" src="../Icons/blue-arrow.png" alt=""> Nepali</p>
+                                <p><img class="arrow" src="../Icons/blue-arrow.png" alt=""> Maithili </p>
+                                <p><img class="arrow" src="../Icons/blue-arrow.png" alt=""> Hindi</p>
+                                <p><img class="arrow" src="../Icons/blue-arrow.png" alt=""> English</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="right"><!--For Whole Right Portion-->
+                        <div class="Member2"><!--For Member Name And Position In Team-->
+                            <h1>Shivam Kumar Thakur</h1>
+                            <p class="Leader">Team Leader</p>
+                        </div>
+                        <div class="inner-right"><!--For Remaining Right Portion-->
+                            <h2>Profile</h2>
+                            <div class="myintro"><!--For Small Introduction-->
+                                <p>Highly energetic and hardworking individual with excellent problem-solving,
+                                    communication,
+                                    and management skills. Seeking an opportunity to leverage my skills and
+                                    experience to
+                                    drive
+                                    career growth and success. I am a quick learner and have a passion for learning
+                                    new
+                                    things. I am also a team player and enjoy collaborating with others to achieve
+                                    common
+                                    goals.
+                                </p>
+                            </div><!--For Very Personal Details-->
+                            <h2>Personal Details</h2>
+                            <ul class="perdet">
+                                <li>Date of Birth : 2006/08/26</li>
+                                <li>Birthplace : Janakpurdham</li>
+                                <li>Nationality : Nepalese</li>
+                                <li>Religion : Hindu</li>
+                                <li>Gender : Male</li>
+                                <li>Age : 19</li>
+
+                            </ul>
+                            <div class="edu"><!--For Their Educational Background-->
+                                <h2>Education</h2>
+                                <p class="ls"><b>Daffodils Public School</b></p>
+                                <p>2010 - 2019</p>
+                                <br>
+                                <p class="ls"><b>Mithila Institute Of Technology</b></p>
+                                <p>2020 - 2023</p>
+                                <br>
+                                <p class="ls"><b>Islington College</b></p>
+                                <p>2023 ( Ongoing )</p>
+                                <p>Bachelor's in Computing </p>
+                                <br>
+                                <br>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <!--Rest Are Also The Same So No Comments.Don't Mind Please-->
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="2" class="show" style="display: none;">
+        <div onclick="hidePanel()" class="cross"><img src="../Icons/cross-2.png" alt=""></div>
+        <div class="detail1">
+            <div class="detail">
+                <div class="info">
+                    <div class="Member">
+                        <img class="profile-pic" src="../image/Satyendra.png" alt="">
+                        <div class="inner-info">
+                            <div class="contact">
+                                <h2>Contact</h2>
+
+                                <h3>Phone</h3>
+                                <p>+977 9800802015</p>
+                                <h3>Email</h3>
+                                <p>satyendrthakur456@gmail.com</p>
+                                <h3>Address</h3>
+                                <p>Tinkune, Kathmandu</p>
+
+                            </div>
+                            <div class="skills">
+                                <h2>Skills</h2>
+                                <p><img class="arrow" src="Icons/blue-arrow.png" alt=""> Adaptability</p>
+                                <p><img class="arrow" src="Icons/blue-arrow.png" alt=""> Management Skill</p>
+                                <p><img class="arrow" src="Icons/blue-arrow.png" alt=""> Communication Skills</p>
+                                <p><img class="arrow" src="Icons/blue-arrow.png" alt=""> Problem Solving</p>
+                            </div>
+
+                            <div class="languages">
+                                <h2>Languages</h2>
+                                <p><img class="arrow" src="Icons/blue-arrow.png" alt=""> Nepali</p>
+                                <p><img class="arrow" src="Icons/blue-arrow.png" alt=""> Maithili </p>
+                                <p><img class="arrow" src="Icons/blue-arrow.png" alt=""> Hindi</p>
+                                <p><img class="arrow" src="Icons/blue-arrow.png" alt=""> English</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="right">
+                        <div class="Member2">
+                            <h1>Satyendra Thakur</h1>
+                            <p class="Leader">Team Member</p>
+                        </div>
+                        <div class="inner-right">
+                            <h2>Profile</h2>
+                            <div class="myintro">
+                                <p>Highly motivated and energetic professional with a proven track record in
+                                    problem-solving, effective communication, and proficient management. Actively
+                                    pursuing opportunities that allow me to utilize my skills and experience to drive
+                                    career growth and achieve success. Recognized for my quick learning abilities and
+                                    genuine passion for acquiring new knowledge. As a team player, I thrive in
+                                    collaborative environments, working towards common goals. Seeking challenges to
+                                    further enhance my skills and contribute to both personal and professional
+                                    development.
+                                </p>
+                            </div>
+                            <h2>Personal Details</h2>
+                            <ul class="perdet">
+                                <li>Date of Birth : 2059/03/18</li>
+                                <li>Birthplace : Janakpurdham</li>
+                                <li>Nationality : Nepalese</li>
+                                <li>Religion : Hindu</li>
+                                <li>Gender : Male</li>
+                                <li>Age : 21</li>
+
+                            </ul>
+                            <div class="edu">
+                                <h2>Education</h2>
+                                <p class="ls"><b>Model Public School</b></p>
+                                <p>2005 - 2019</p>
+                                <br>
+                                <p class="ls"><b>Kathmandu Model College</b></p>
+                                <p>2019 - 2021</p>
+                                <br>
+                                <p class="ls"><b>Islington College</b></p>
+                                <p>2023 ( Ongoing )</p>
+                                <p>Bachelor's in Computing </p>
+                                <br>
+                                <br>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- CV Number 3 -->
+
+
+
+    <div id="3" class="show" style="display: none;">
+        <div onclick="hidePanel()" class="cross"><img src="../Icons/cross-2.png" alt=""></div>
+        <div class="detail1">
+            <div class="detail">
+                <div class="info">
+                    <div class="Member">
+                        <img class="profile-pic" src="../image/Piyush.jpg" alt="">
+                        <div class="inner-info">
+                            <div class="contact">
+                                <h2>Contact</h2>
+
+                                <h3>Phone</h3>
+                                <p>+977 986788844</p>
+                                <h3>Email</h3>
+                                <p>Piyushparajuli.cr7@gmail.com</p>
+                                <h3>Address</h3>
+                                <p>Jorpati, Chariclub</p>
+
+                            </div>
+                            <div class="skills">
+                                <h2>Skills</h2>
+                                <p><img class="arrow" src="Icons/blue-arrow.png" alt=""> Riding Bike</p>
+                                <p><img class="arrow" src="Icons/blue-arrow.png" alt=""> Playing Football</p>
+                                <p><img class="arrow" src="Icons/blue-arrow.png" alt=""> BasketBall</p>
+                            </div>
+
+                            <div class="languages">
+                                <h2>Languages</h2>
+                                <p><img class="arrow" src="Icons/blue-arrow.png" alt=""> Nepali</p>
+                                <p><img class="arrow" src="Icons/blue-arrow.png" alt=""> Hindi</p>
+                                <p><img class="arrow" src="Icons/blue-arrow.png" alt=""> English</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="right">
+                        <div class="Member2">
+                            <h1>Piyush Parajuli </h1>
+                            <p class="Leader">Team Member</p>
+                        </div>
+                        <div class="inner-right">
+                            <h2>Profile</h2>
+                            <div class="myintro">
+                                <p>
+                                    Dynamic and motivated individual, known for my exceptional problem-solving,
+                                    communication, and managerial capabilities. Currently seeking a rewarding
+                                    opportunity to leverage my skills and experience, steering towards continuous career
+                                    growth and accomplishments. I possess a natural aptitude for quick learning, coupled
+                                    with a genuine passion for acquiring new knowledge. As a collaborative team player,
+                                    I find fulfillment in working collectively to attain shared objectives. Eager to
+                                    contribute positively to new challenges and committed to ongoing personal and
+                                    professional development.
+                                </p>
+                            </div>
+                            <h2>Personal Details</h2>
+                            <ul class="perdet">
+                                <li>Date of Birth : 2062/07/29</li>
+                                <li>Birthplace : Kathmandu</li>
+                                <li>Nationality : Nepalese</li>
+                                <li>Religion : Hindu</li>
+                                <li>Gender : Male</li>
+                                <li>Age : 19</li>
+
+                            </ul>
+                            <div class="edu">
+                                <h2>Education</h2>
+                                <p class="ls"><b>Arunima Secondary School</b></p>
+                                <p>2009 - 2019</p>
+                                <br>
+                                <p class="ls"><b>Global College Of Management</b></p>
+                                <p>2020 - 2023</p>
+                                <br>
+                                <p class="ls"><b>Islington College</b></p>
+                                <p>2023 ( Ongoing )</p>
+                                <p>Bachelor's in Computing </p>
+                                <br>
+                                <br>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- CV Number 4 -->
+
+
+
+    <div id="4" style="display: none;" class="show">
+        <div onclick="hidePanel()" class="cross"><img src="../Icons/cross-2.png" alt=""></div>
+
+
+        <div class="detail1">
+            <div class="detail">
+                <div class="info">
+                    <div class="Member">
+                        <img class="profile-pic" src="../image/profile1.png" alt="">
+                        <div class="inner-info">
+                            <div class="contact">
+                                <h2>Contact</h2>
+
+                                <h3>Phone</h3>
+                                <p>+977 9843252790</p>
+                                <h3>Email</h3>
+                                <p>divasilval7@gmail.com</p>
+                                <h3>Address</h3>
+                                <p>Kalanki ,Kathmandu</p>
+
+                            </div>
+                            <div class="skills">
+                                <h2>Skills</h2>
+                                <p><img class="arrow" src="Icons/blue-arrow.png" alt=""> Adaptability</p>
+                                <p><img class="arrow" src="Icons/blue-arrow.png" alt=""> Management Skill</p>
+                                <p><img class="arrow" src="Icons/blue-arrow.png" alt=""> Communication Skills</p>
+                                <p><img class="arrow" src="Icons/blue-arrow.png" alt=""> Problem Solving</p>
+                            </div>
+
+                            <div class="languages">
+                                <h2>Languages</h2>
+                                <p><img class="arrow" src="Icons/blue-arrow.png" alt=""> Nepali</p>
+                                <p><img class="arrow" src="Icons/blue-arrow.png" alt=""> Hindi</p>
+                                <p><img class="arrow" src="Icons/blue-arrow.png" alt=""> English</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="right">
+                        <div class="Member2">
+                            <h1>Diwas Silwal</h1>
+                            <p class="Leader">Team Member</p>
+                        </div>
+                        <div class="inner-right">
+                            <h2>Profile</h2>
+                            <div class="myintro">
+                                <p>
+                                    Enthusiastic and industrious professional with strong problem-solving,
+                                    communication, and organizational aptitude. Actively pursuing opportunities to apply
+                                    my skills and expertise for advancing career objectives and achieving success. Known
+                                    for adaptability and a keen appetite for acquiring new knowledge. A dedicated team
+                                    player, I thrive in collaborative environments, contributing to collective
+                                    accomplishments. Eager to embrace challenges and continuously enhance my
+                                    capabilities for sustained personal and professional development.
+                                </p>
+                            </div>
+                            <h2>Personal Details</h2>
+                            <ul class="perdet">
+                                <li>Date of Birth : 2004/11/05</li>
+                                <li>Birthplace : Kathmandu</li>
+                                <li>Nationality : Nepalese</li>
+                                <li>Religion : Hindu</li>
+                                <li>Gender : Male</li>
+                                <li>Age : 19</li>
+
+                            </ul>
+                            <div class="edu">
+                                <h2>Education</h2>
+                                <p class="ls"><b>Malpi International School</b></p>
+                                <p>2009 - 2019</p>
+                                <br>
+                                <p class="ls"><b>United College</b></p>
+                                <p>2020 - 2023</p>
+                                <br>
+                                <p class="ls"><b>Islington College</b></p>
+                                <p>2023 ( Ongoing )</p>
+                                <p>Bachelor's in Computing </p>
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+</body>
+<script src="../Javascript/AboutUs.js"></script>
+
+</html>
